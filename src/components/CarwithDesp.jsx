@@ -1,6 +1,6 @@
 import React from 'react'
 
-const CarwithDesp = ({title,images,description}) => {
+const CarwithDesp = ({title,images,description,onClick }) => {
   
     
   return (
@@ -13,10 +13,14 @@ const CarwithDesp = ({title,images,description}) => {
       />
     </div>
     <div className="w-2/3 pl-4">
-      <h2 className="text-2xl font-bold mb-2">{title}</h2>
-      <p className="">
+      <h2 className="text-2xl font-bold mb-2 text-white">{title}</h2>
+      <p className="text-white">
         {description}
       </p>
+      <button 
+          onClick={onClick} 
+          className="mt-2 bg-blue-500 text-white px-4 py-2 rounded"
+        >View</button>
     </div>
   </div>
   )
