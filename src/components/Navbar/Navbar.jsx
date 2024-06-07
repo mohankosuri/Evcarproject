@@ -1,9 +1,11 @@
 import React from 'react'
 import './Navbar.css'
 import { NavLink } from 'react-router-dom'
+import Headroom from 'react-headroom'
 
 const Navbar = () => {
   return (
+    
      <nav className='nav'>
         <div className='nav-logo'>
             Ev-olution
@@ -16,6 +18,7 @@ const Navbar = () => {
         
         </div>
      </nav>
+     
   )
 }
 
