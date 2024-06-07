@@ -2,7 +2,7 @@ import React from 'react'
 
 const AboutpageContent = () => {
   return (
-    <div className='mx-[120px] my-[20px] bg-white p-10'>
+    <div className='mx-[120px] my-[20px] bg-white p-10 opacity-80'>
           <div className='font-bold  text-2xl'>About Ev-olution</div> 
           <p className='mt-6'>
           Welcome to Ev-olution, your premier destination for buying and selling top-quality vehicles. At Ev-olution, we believe that the journey to finding your perfect car should be as enjoyable and seamless as the drive itself.

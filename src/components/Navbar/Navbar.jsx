@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className='nav-logo'>
             Ev-olution
         </div>
-        <div className='flex gap-x-8'>
+        <div className='flex gap-x-8 font-bold font-sans text-lg'>
             <div><NavLink to={'/'}>Home</NavLink></div>
             <div><NavLink to={'/explore'}>Explore</NavLink></div>
             <div><NavLink to={'/About'}>About</NavLink></div>
